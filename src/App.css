@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+
+.nav {
+  
+}
+
+.nav-links {
+  display: flex;
+}
+
+.but {
+  transform: translateY(40px);
+  
+  
+}
+
+.div-links {
+  transform: translateY(20px);
+}
+
+
+.home-pic {
+  background-image: url('https://www.ledger.com/wp-content/uploads/2023/03/april_ledgernanos_nanox.jpg');
+  background-size: cover;
+  background-position: center;
+  min-width: 580px;
+  min-height: 200px;
+
+}
+
+/* .onchain-pic{
+  background-image: url('https://www.ledger.com/wp-content/uploads/2023/03/Onchain.png');
+  background-size: cover;
+  background-position: center;
+  min-width: 580px;
+  max-height: 100%;
+  
+  
+} */
+
+
+/* @media (max-width: 940px) {
+  .onchain-pic {
+    min-height: 50%;
+    width: 100%;
+    
+  }
+} */
+
+
+
+
+input::placeholder{
+  color: black;
+}
+
+input {
+  border: 1px solid black;
+}
